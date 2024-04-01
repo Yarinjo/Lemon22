@@ -1,0 +1,67 @@
+.main {
+    max-width: 370px;
+    padding: 20px;
+}
+
+.pictures {
+    display: flex;
+    overflow-x: auto;
+    gap: 22px;
+
+
+}
+.picturesBlock {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 10px 22px 10px;
+    position: relative;
+    background: linear-gradient(137deg, #252a32 0%, #262b33 100%);
+    border-radius: 23px;
+}
+.picturesBlock ~img {
+    width: 126px;
+    height: auto;
+}
+.star {
+    position: absolute;
+    right: 38px;
+    top: 15px;
+}
+.starBlock {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+.picturesBlockTitle {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 154%;
+    color: #fff;
+}
+.picturesBlockDesc {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 222%;
+    color: #fff;
+}
+.price {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 133%;
+    color: #d17842;
+    margin-top: 6px;
+}
+.price span {
+    color: #fff;
+}
+.picturesBlockLowerSection {
+    display: flex;
+    justify-content: space-between;
+}
+.picturesBlockLowerSection img {
+    max-width: 28px;
+}
+
+.picturesBlockMainPicture {
+          
+}
