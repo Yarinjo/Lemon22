@@ -93,13 +93,14 @@ color: #fff;
 
 
 .bottomSection {
-    
+    margin-top: 20px;;
 }
 .description {
     font-weight: 600;
     font-size: 14px;
     line-height: 143%;
     color: #aeaeae;
+    margin-bottom: 8px;
 }
 .description p {
     font-weight: 400;
@@ -119,6 +120,7 @@ color: #fff;
     align-items: center;
     margin-inline: auto;
     gap: 25px;
+    margin-top: 12px;
 }
 .sizegm {
     padding: 10px 28px;
@@ -132,12 +134,15 @@ color: #fff;
 .price {
     display: flex;
     gap: 40px;
+    margin-top: 28px;
 }
 .priceBlock {
     font-weight: 500;
     font-size: 12px;
     line-height: 167%;
     color: #aeaeae;
+    margin-top: 8px;
+    text-align: center;
 }
 .priceBlock p {
     font-weight: 600;
